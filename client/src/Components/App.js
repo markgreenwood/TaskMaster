@@ -1,8 +1,15 @@
 import React from 'react';
+import TaskList from './TaskList';
+
+const tasks = [
+  { name: 'Do this' },
+  { name: 'Do that' },
+  { name: 'Do the other thing' }
+];
 
 const App = () => {
   return (
-    <div>My App</div>
+    <TaskList tasks={tasks} />
   );
 };
 
